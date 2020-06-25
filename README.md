@@ -1,6 +1,6 @@
 # Mini-Linux-Konfiguration
 Eine kleine Sammlung der wichtigsten Befehle für die sporadische Linux Nutzung.
->Es ist als eine erinnerungsstütze gedacht. Wenn man 1x pro Jahr damit zu tun hat muss Mann wieder die Suchmaschine bemühen
+Es ist als eine erinnerungsstütze gedacht. Wenn man 1x pro Jahr damit zu tun hat muss Mann wieder die Suchmaschine bemühen
 
 Ich verzichte überall `sudo` einzuschieben. Wenn es benötigt wird, wird man dazu ehe aufgefordert. 
 
@@ -19,9 +19,9 @@ Befehl | Funktion
 Befehl | Funktion
 -- | --
 `apt install openssh-server` | OpenSSH Server installieren
-`nano /etc/ssh/sshd_config` | ggf. folgende Zeilen anpassen: `PasswordAuthentication yes` >und `AllowUsers andreas@192.168.*.*`
 `ufw allow ssh` | Firewall für port 23 öffnen
 
+Gegabenfalls folgende die Config editieren `nano /etc/ssh/sshd_config` und folgende Zeilen ampassen `PasswordAuthentication yes` und z.B. `AllowUsers andreas@192.168.*.*`
 
 ## Dateien / Ordner
 Befehl | Funktion
