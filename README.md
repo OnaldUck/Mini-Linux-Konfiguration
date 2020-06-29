@@ -21,10 +21,9 @@ Befehl | Funktion
 `apt install openssh-server` | OpenSSH Server installieren
 `ufw allow ssh` | Firewall für port 23 öffnen
 
-Gegabenfalls folgende die Config editieren `nano /etc/ssh/sshd_config` und folgende Zeilen ampassen `PasswordAuthentication yes` und z.B. `AllowUsers andreas@192.168.*.*`
+Gegebenfalls noch die folgende Config-Datei editieren `nano /etc/ssh/sshd_config` und folgende Zeilen ampassen `PasswordAuthentication yes` und z.B. `AllowUsers robert@192.168.*.*`
 
 ## Dateien / Ordner
 Befehl | Funktion
 -- | --
 `rm -r -f [Ordner]` | Ordner inc. Unterorder löschen
-
